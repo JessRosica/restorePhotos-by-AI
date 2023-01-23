@@ -22,14 +22,8 @@ class MyDocument extends Document {
             name="twitter:description"
             content="Restore your old photos and keep the memories alive."
           />
-          <meta
-            property="og:image"
-            content="https://restore-photos.vercel.app/og-image.png"
-          />
-          <meta
-            name="twitter:image"
-            content="https://restore-photos.vercel.app/og-image.png"
-          />
+          <meta property="og:image" content="/public/a-new.jpg" />
+          <meta name="twitter:image" content="/public/a-new.jpg" />
         </Head>
         <body>
           <Main />
