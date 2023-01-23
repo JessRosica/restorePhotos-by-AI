@@ -45,6 +45,7 @@ export default async function handler(
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
       Authorization: "Token " + process.env.NEXT_PUBLIC_REPLICATE_API_KEY,
     },
     body: JSON.stringify({
@@ -66,6 +67,7 @@ export default async function handler(
       method: "GET",
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
         Authorization: "Token " + process.env.NEXT_PUBLIC_REPLICATE_API_KEY,
       },
     });
