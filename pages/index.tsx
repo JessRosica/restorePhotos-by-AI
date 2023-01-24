@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SquigglyLines from "../components/SquigglyLines";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +12,8 @@ const Home: NextPage = () => {
       <Head>
         <title>ali.</title>
       </Head>
-      <Header/>
+      <Header />
 
-      
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-28 mt-20">
         <a
           href="#"
@@ -21,7 +21,10 @@ const Home: NextPage = () => {
           rel="noreferrer"
           className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
         >
-          This project is only for <span className="font-semibold"> prototype </span>. It is <span className="font-semibold">prohibited</span> to use for any business without my permission. 
+          This project is only for{" "}
+          <span className="font-semibold"> prototype </span>. It is{" "}
+          <span className="font-semibold">prohibited</span> to use for any
+          business without my permission.
         </a>
         <a
           href="mailto:hi@aliahad.com"
@@ -29,14 +32,14 @@ const Home: NextPage = () => {
           rel="noreferrer"
           className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
         >
-          for any feedback or improvement or idea? email me at : <span className="font-semibold">hi@aliahad.com</span>
+          for any feedback or improvement or idea? email me at :{" "}
+          <span className="font-semibold">hi@aliahad.com</span>
         </a>
-        
+
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
           Project: Restoring old / blurry photos using AI
         </h1>
 
-        
         <Link
           className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
           href="/restore"
@@ -70,7 +73,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      
+      <Footer />
     </div>
   );
 };
