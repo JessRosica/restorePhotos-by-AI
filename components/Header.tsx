@@ -4,11 +4,7 @@ export default function Header() {
       <div className="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center">
         <div className="relative flex items-center w-full pl-1 lg:max-w-68 sm:pr-2 sm:ml-0">
           <div className="container relative left-0 z-50 flex w-3/4 h-auto h-full">
-            <span className="text-sm text-gray-500 sm:text-center pr-5">
-              {" "}
-              Join communities to get update my next project -
-            </span>
-            <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
+            <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0 ml-4">
               <li>
                 <a
                   href="https://www.facebook.com/groups/aicommunity1/"
