@@ -7,18 +7,12 @@ export default function Footer() {
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
         <li>
-          <a
-            href="https://www.facebook.com/groups/aicommunity1/"
-            className="mr-4 hover:underline md:mr-6 "
-          >
+          <a href="#" className="mr-4 hover:underline md:mr-6 ">
             Facebook
           </a>
         </li>
         <li>
-          <a
-            href="https://t.me/aicommunity2"
-            className="mr-4 hover:underline md:mr-6"
-          >
+          <a href="#" className="mr-4 hover:underline md:mr-6">
             Telegram
           </a>
         </li>
